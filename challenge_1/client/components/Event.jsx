@@ -2,7 +2,6 @@ import React from 'react';
 import EventItem from "./EventItem.jsx"
 
 const Event = function(props){
-  console.log(props.event)
   if(props.event[0]==="...loading"){
     return(
       <div>
@@ -10,7 +9,6 @@ const Event = function(props){
       </div>
     )
   }else{
-    console.log(props.event)
     return(
       <div>
       {
